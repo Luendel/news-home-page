@@ -1,0 +1,62 @@
+section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4.3rem;
+    font-family: "Inter", sans-serif;
+}
+
+section .popular-list {
+    list-style: none;
+}
+
+section .popular-list .popular-list-item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+section .popular-list .popular-list-item .img.retro {
+    content: url("/assets/images/image-retro-pcs.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+section .popular-list .popular-list-item .img.laptop {
+    content: url("/assets/images/image-top-laptops.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+section .popular-list .popular-list-item .img.gaming {
+    content: url("/assets/images/image-gaming-growth.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+section .popular-list .popular-list-item ul {
+    list-style: none;
+    height: 100%;
+}
+
+section .popular-list .popular-list-item ul li {
+    margin-left: 1rem;
+}
+
+section .popular-list .popular-list-item ul li h2 {
+    font-size: 1.5rem;
+    color: hsl(5, 85%, 63%);
+}
+
+section .popular-list .popular-list-item ul li h3 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+section .popular-list .popular-list-item ul li p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+}
