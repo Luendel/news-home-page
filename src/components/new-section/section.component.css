@@ -1,0 +1,39 @@
+section {
+    width: 90%;
+    background-color: hsl(240, 100%, 5%);
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    color: white;
+    padding-top: 1.8rem;
+    margin-top: 2rem;
+}
+
+section h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section ul {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 80%;
+}
+
+section ul li {
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+section ul li h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+section ul li p {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
