@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
     styleUrl:"./aside-nav.component.css"
 })
 export class AsideNav {
-
+    display = {
+        display:"none"
+    }
 }

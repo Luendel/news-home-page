@@ -1,0 +1,52 @@
+aside {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color:hsla(240, 100%, 5%, 0.45);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+aside nav {
+    background-color: hsl(36, 100%, 99%);
+    width: 67%;
+    height: 100%;
+}
+
+aside nav .icon-close {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+aside nav .icon-close img {
+    margin-top: 1.75rem;
+    margin-right: 1.75rem;
+    width: 2.5rem;
+}
+
+aside nav .icon-close img:hover {
+    cursor: pointer;
+}
+
+aside nav ul {
+    list-style: none;
+    margin-top: 5.5rem;
+}
+
+aside nav ul li {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.45rem;
+    font-weight: 400;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
