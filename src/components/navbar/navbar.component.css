@@ -21,3 +21,8 @@ header nav .nav-list-desktop {
     list-style-type: none;
     display: none;
 }
+
+header nav .nav-list-desktop li:hover a {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}

@@ -54,6 +54,11 @@ section .popular-list .popular-list-item ul li h3 {
     font-size: 1.1rem;
 }
 
+section .popular-list .popular-list-item ul li h3:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
 section .popular-list .popular-list-item ul li p {
     margin-top: 1rem;
     font-size: 0.95rem;
