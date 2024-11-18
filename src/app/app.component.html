@@ -1,5 +1,5 @@
 <main>
-  <app-aside-nav [display]="display"></app-aside-nav>
+  <app-aside-nav [display]="display" (toggle)="toggleAsideNav($event)"></app-aside-nav>
   <app-navbar (toggle)="toggleAsideNav($event)"></app-navbar>
   <app-hero></app-hero>
   <app-new></app-new>
