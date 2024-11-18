@@ -15,4 +15,20 @@ import { AsideNavModule } from '../components/aside-nav/aside-nav.component.modu
 })
 export class AppComponent {
   title = 'news-home-page';
+  display = {
+    display:"none"
+}
+
+  toggleAsideNav(value:any){
+    if(this.display.display === "none"){
+      this.display = {
+        display:""
+      }
+    }
+    else {
+      this.display = {
+        display:"none"
+      }
+    }
+  }
 }

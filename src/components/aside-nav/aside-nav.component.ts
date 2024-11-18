@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector:"app-aside-nav",
@@ -6,7 +6,5 @@ import { Component } from "@angular/core";
     styleUrl:"./aside-nav.component.css"
 })
 export class AsideNav {
-    display = {
-        display:"none"
-    }
+    @Input() display: any;
 }

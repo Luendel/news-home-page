@@ -1,6 +1,6 @@
 <main>
-  <app-aside-nav></app-aside-nav>
-  <app-navbar></app-navbar>
+  <app-aside-nav [display]="display"></app-aside-nav>
+  <app-navbar (toggle)="toggleAsideNav($event)"></app-navbar>
   <app-hero></app-hero>
   <app-new></app-new>
   <app-popular></app-popular>

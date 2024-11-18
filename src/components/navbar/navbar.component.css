@@ -17,6 +17,10 @@ header nav {
     align-items: center;
 }
 
+header nav .menu-icon:hover {
+    cursor: pointer;
+}
+
 header nav .nav-list-desktop {
     list-style-type: none;
     display: none;
