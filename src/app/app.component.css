@@ -11,4 +11,8 @@ main {
     main app-navbar {
         grid-column: span 2;
     }
+
+    main app-popular {
+        grid-column: span 2;
+    }
 }
