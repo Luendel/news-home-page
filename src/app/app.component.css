@@ -1,3 +1,14 @@
 main {
     background-color: hsl(36, 100%, 99%);
 }
+
+@media (min-width:1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 37.8vw;
+    }
+
+    main app-navbar {
+        grid-column: span 2;
+    }
+}
