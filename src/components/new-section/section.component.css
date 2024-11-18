@@ -43,3 +43,30 @@ section ul li p {
     line-height: 1.5rem;
     color: hsl(233, 8%, 79%);
 }
+
+@media (min-width:600px) {
+    section {
+        padding-top: 3.6rem;
+        margin-top: 4rem;
+    }
+
+    section h2 {
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    section ul li {
+        padding-bottom: 3.5rem;
+        padding-top: 3.5rem;
+    }
+
+    section ul li h3 {
+        font-size: 2rem;
+    }
+
+    section ul li p {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+}

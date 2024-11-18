@@ -65,3 +65,33 @@ section .popular-list .popular-list-item ul li p {
     color: hsl(236, 13%, 42%);
     line-height: 1.5rem;
 }
+
+
+@media (min-width:600px){
+    section {
+        margin-top: 8.6rem;
+    }
+
+    section .popular-list .popular-list-item {
+        margin-bottom: 4rem;
+    }
+
+    section .popular-list .popular-list-item ul li {
+        margin-left: 2rem;
+    }
+
+    section .popular-list .popular-list-item ul li h2 {
+        font-size: 3rem;
+    }
+
+    section .popular-list .popular-list-item ul li h3 {
+        margin-top: 2rem;
+        font-size: 2.2rem;
+    }
+
+    section .popular-list .popular-list-item ul li p {
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        line-height: 3rem;
+    }
+}
