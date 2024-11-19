@@ -52,8 +52,23 @@ header nav .nav-list-desktop li:hover a {
     }
 
     header nav .nav-list-desktop li a {
-        color: black;
+        color: hsl(236, 13%, 42%);
         text-decoration: none;
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1000px) {
+    header {
+        width: 87%;
+        max-width: 1248px;
+    }
+
+    header nav .nav-list-desktop {
+        margin-right: 2.4rem;
+    }
+
+    header nav .nav-list-desktop li {
+        padding: 0 1rem;
     }
 }
