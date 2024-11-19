@@ -89,6 +89,47 @@ section button:hover {
     }
 
     section h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        grid-row: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+
+    section p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        margin-top: 0;
+    }
+
+    section button {
+        font-size: 0.8rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 2.8rem;
+        margin-bottom: 0rem;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+    }
+}
+
+@media (min-width:1200px) {
+    section{
+        max-width: 850px;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 5.45rem 5.45rem;
+    }
+
+    section .hero-image {
+        content: url("/assets/images/image-web-3-desktop.jpg");
+        grid-column: span 2;
+        height: 18.75rem;
+        margin-bottom: 2.44rem;
+    }
+
+    section h1 {
         font-size: 4rem;
         line-height: 4rem;
         grid-row: span 2;

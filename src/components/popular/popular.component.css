@@ -110,6 +110,81 @@ section .popular-list .popular-list-item ul li p {
     }
     
     section .popular-list .popular-list-item .img.retro {
+        width: 95%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: end;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.laptop {
+        width: 95%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.gaming {
+        width: 95%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item ul li {
+        margin-left: 1rem;
+    }
+
+    section .popular-list .popular-list-item ul li.first {
+        margin-left: 1.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li h2 {
+        font-size: 1.975rem;
+    }
+
+    section .popular-list .popular-list-item ul li h3 {
+        margin-top: 0.3rem;
+        font-size: 0.9rem;
+    }
+
+    section .popular-list .popular-list-item ul li p {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    section .popular-list .popular-list-item ul li.first p {
+        width: 88%;
+    }
+
+    section .popular-list .popular-list-item ul li.second p {
+        width: 80%;
+    }
+
+    section .popular-list .popular-list-item ul li.third p {
+        width: 88%;
+    }
+
+    
+}
+
+@media (min-width:1200px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 87%;
+        max-width: 1285px;
+    }
+
+    section .popular-list {
+        display: grid;
+        grid-template-columns: 32.45% 1fr 33.25%;
+    }
+    
+    section .popular-list .popular-list-item .img.retro {
         width: 85%;
         height: 100%;
         max-height: 150px;
@@ -157,7 +232,7 @@ section .popular-list .popular-list-item ul li p {
     }
 
     section .popular-list .popular-list-item ul li.first p {
-        width: 88%;
+        width: 90%;
     }
 
     section .popular-list .popular-list-item ul li.second p {
@@ -166,6 +241,165 @@ section .popular-list .popular-list-item ul li p {
 
     section .popular-list .popular-list-item ul li.third p {
         width: 88%;
+    }
+
+    
+}
+
+@media (min-width:1600px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 87%;
+        max-width: 1345px;
+    }
+
+    section .popular-list {
+        display: grid;
+        grid-template-columns: 32.45% 1fr 33.25%;
+    }
+    
+    section .popular-list .popular-list-item .img.retro {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: end;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.laptop {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.gaming {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item ul li {
+        margin-left: 0;
+    }
+
+    section .popular-list .popular-list-item ul li.first {
+        margin-left: 1.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li h2 {
+        font-size: 2.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li h3 {
+        margin-top: 0.3rem;
+        font-size: 1.3rem;
+    }
+
+    section .popular-list .popular-list-item ul li p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li.first p {
+        width: 90%;
+    }
+
+    section .popular-list .popular-list-item ul li.second p {
+        width: 80%;
+    }
+
+    section .popular-list .popular-list-item ul li.third p {
+        width: 88%;
+    }
+
+    
+}
+
+
+@media (min-width:1800px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 87%;
+        max-width: 1270px;
+    }
+
+    section .popular-list {
+        display: grid;
+        grid-template-columns: 32.45% 1fr 33.25%;
+    }
+
+    section .popular-list .popular-list-item:nth-child(2) {
+        margin-left: 5rem;
+    }
+
+    section .popular-list .popular-list-item:nth-child(3){
+        margin-left: 5rem;
+    }
+    
+    section .popular-list .popular-list-item .img.retro {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: end;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.laptop {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item .img.gaming {
+        width: 85%;
+        height: 100%;
+        max-height: 150px;
+        justify-self: start;
+        align-self: baseline;
+    }
+
+    section .popular-list .popular-list-item ul li {
+        margin-left: 0;
+    }
+
+    section .popular-list .popular-list-item ul li.first {
+        margin-left: 1.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li h2 {
+        font-size: 2.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li h3 {
+        margin-top: 0.3rem;
+        font-size: 1.3rem;
+    }
+
+    section .popular-list .popular-list-item ul li p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    section .popular-list .popular-list-item ul li.first p {
+        width: 90%;
+    }
+
+    section .popular-list .popular-list-item ul li.second p {
+        width: 98%;
+    }
+
+    section .popular-list .popular-list-item ul li.third p {
+        width: 98%;
     }
 
     

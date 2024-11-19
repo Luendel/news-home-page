@@ -72,3 +72,33 @@ header nav .nav-list-desktop li:hover a {
         padding: 0 1rem;
     }
 }
+
+@media (min-width:1400px) {
+    header {
+        width: 87%;
+        max-width: 1300px;
+    }
+
+    header nav .nav-list-desktop {
+        margin-right: 0
+    }
+
+    header nav .nav-list-desktop li {
+        padding: 0 1.4rem;
+    }
+}
+
+@media (min-width:1800px) {
+    header {
+        width: 87%;
+        max-width: 1230px;
+    }
+
+    header nav .nav-list-desktop {
+        margin-right: -5.5rem
+    }
+
+    header nav .nav-list-desktop li {
+        padding: 0 1.5rem;
+    }
+}
