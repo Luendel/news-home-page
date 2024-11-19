@@ -336,11 +336,13 @@ section .popular-list .popular-list-item ul li p {
     }
 
     section .popular-list .popular-list-item:nth-child(2) {
-        margin-left: 5rem;
+        margin-left: 3rem;
+        margin-right: -1.5rem;
     }
 
     section .popular-list .popular-list-item:nth-child(3){
         margin-left: 5rem;
+        margin-right: -2.5rem;
     }
     
     section .popular-list .popular-list-item .img.retro {
