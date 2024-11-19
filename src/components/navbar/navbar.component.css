@@ -102,3 +102,13 @@ header nav .nav-list-desktop li:hover a {
         padding: 0 1.5rem;
     }
 }
+
+@media (min-width:1950px) {
+    header {
+        margin-left: 4.8%;
+    }
+
+    header nav .nav-list-desktop {
+        margin-right: -2rem
+    }
+}

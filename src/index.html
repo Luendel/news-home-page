@@ -15,6 +15,23 @@
       padding: 0;
       box-sizing: border-box;
     }
+
+    body app-root {
+      max-width: 1920px;
+      max-height: 1080px;
+    }
+
+    @media (min-width:1950px) {
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15%;
+      }
+    }
   </style>
 </head>
 <body>

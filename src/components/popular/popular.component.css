@@ -406,3 +406,19 @@ section .popular-list .popular-list-item ul li p {
 
     
 }
+
+@media (min-width:1950px) {
+    section {
+        margin-left: 3.8%;
+    }
+
+    section .popular-list .popular-list-item:nth-child(2) {
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    section .popular-list .popular-list-item:nth-child(3){
+        margin-left: 2.5rem;
+        margin-right: 0;
+    }
+}
