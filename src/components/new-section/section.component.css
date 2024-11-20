@@ -74,7 +74,7 @@ section ul li p {
 @media (min-width:1000px) {
     section {
         width: 65%;
-        max-width: 400px;
+        
         height: 33.5rem;
         max-height: 100%;
         margin-left: 8%;
@@ -111,12 +111,13 @@ section ul li p {
 @media (min-width:1200px) {
     section {
         width: 65%;
-        max-width: 400px;
+        
         height: 33.5rem;
         max-height: 100%;
         margin-left: 8%;
         margin-top: 0;
         padding-top: 1.9rem;
+        overflow: hidden;
     }
 
     section h2 {

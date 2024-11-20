@@ -61,7 +61,6 @@ header nav .nav-list-desktop li:hover a {
 @media (min-width:1000px) {
     header {
         width: 87%;
-        max-width: 1248px;
     }
 
     header nav .nav-list-desktop {
@@ -75,8 +74,10 @@ header nav .nav-list-desktop li:hover a {
 
 @media (min-width:1400px) {
     header {
-        width: 87%;
-        max-width: 1300px;
+        width: 83.5%;
+        margin-left: 6.3%;
+        margin-right: 6.3%;
+        max-width: unset;
     }
 
     header nav .nav-list-desktop {
@@ -84,31 +85,7 @@ header nav .nav-list-desktop li:hover a {
     }
 
     header nav .nav-list-desktop li {
-        padding: 0 1.4rem;
-    }
-}
-
-@media (min-width:1800px) {
-    header {
-        width: 87%;
-        max-width: 1230px;
+        padding: 0 0 0 2.2rem;
     }
 
-    header nav .nav-list-desktop {
-        margin-right: -5.5rem
-    }
-
-    header nav .nav-list-desktop li {
-        padding: 0 1.5rem;
-    }
-}
-
-@media (min-width:1950px) {
-    header {
-        margin-left: 4.8%;
-    }
-
-    header nav .nav-list-desktop {
-        margin-right: -2rem
-    }
 }
