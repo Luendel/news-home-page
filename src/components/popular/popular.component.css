@@ -180,14 +180,14 @@ section .popular-list .popular-list-item ul li p {
     }
     
     section .popular-list .popular-list-item .img.retro {
-        width: 84.5%;
+        width: 85%;
         height: 90%;
         justify-self: start;
         align-self: baseline;
     }
 
     section .popular-list .popular-list-item .img.laptop {
-        width: 83%;
+        width: 84%;
         height: 90%;
         justify-self: start;
         align-self: baseline;
